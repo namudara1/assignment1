@@ -4,12 +4,12 @@ object Price extends App {
       var p=
       if(bookAmount >50)
       {
-        50*3+ 0.75*(bookAmount-50)
+        3+ 0.75*(bookAmount-50)
     
       }
       else
       {
-        bookAmount*3
+        3
       }
     printf(p+a  +"Rupees")
     }
